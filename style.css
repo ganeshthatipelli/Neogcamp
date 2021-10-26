@@ -7,7 +7,9 @@
 body {
     font-family: 'Oswald', sans-serif;
 }
-
+hr{
+    margin: 2rem 0rem;
+}
 .container {
     padding:0rem 1rem;
 }
@@ -32,4 +34,13 @@ body {
     color: var(--primary-color);
     border-radius:0.5rem;
     border:1px solid var(--primary-color);
+}
+.non-bullet
+{
+    list-style: none;
+}
+.inline-list
+{
+    display:inline;
+    padding:0rem 0.5rem;
 }
