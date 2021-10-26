@@ -1,19 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 body{
-    color:red;
-}
-h1{
-    color:blue;
-}
-h2{
-    color:chocolate;
-}
-
-#lib
-{
-    color:darkgreen;
-}
-
-.para
-{
-    color:darkgrey;
+    font-family: 'Oswald', sans-serif;
 }
