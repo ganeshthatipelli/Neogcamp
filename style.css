@@ -2,16 +2,20 @@
 
 :root {
     --primary-color: #2563EB;
+    --dark-color: #6B7280;
+    --offwhite-color:#F3F4F6;
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
-hr{
+
+hr {
     margin: 2rem 0rem;
 }
+
 .container {
-    padding:0rem 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-centre {
@@ -26,46 +30,76 @@ hr{
 
 .primary-link {
     background-color: var(--primary-color);
-    color:white;
+    color: white;
     border-radius: 0.5rem;
 }
-.secondary-link
-{
+
+.secondary-link {
     color: var(--primary-color);
-    border-radius:0.5rem;
-    border:1px solid var(--primary-color);
-}
-.non-bullet
-{
-    list-style: none;
-}
-.inline-list
-{
-    display:inline;
-    padding:0rem 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
 
-.navigation
-{
-    background-color:var(--primary-color);
+.non-bullet {
+    list-style: none;
+}
+
+.inline-list {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-.navigation .nav-brand 
-{
+
+.navigation .nav-brand {
     font-size: 1.1rem;
     font-weight: bold;
 }
 
 .navigation .link {
- color: white;
+    color: white;
 }
-.navigation .nav-pills 
-{
+
+.navigation .nav-pills {
     text-align: right;
 }
-.navigation .link-active
-{
+
+.navigation .link-active {
     font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading {
+    color: var(--dark-color);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+.section
+{
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
+
+.ow
+{
+    background-color: var(--offwhite-color);
 }
