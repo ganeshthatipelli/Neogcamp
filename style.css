@@ -114,6 +114,15 @@ hr {
     color: white;
     border-top-right-radius: 1rem;
 }
+
+.footer .footer-header
+{
+    font-weight: bold;
+    font-size: large;
+}
 .footer .link{
     color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
